@@ -16,6 +16,7 @@
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
     "excludedLoggedData": [
@@ -24,7 +25,8 @@
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -44,6 +46,12 @@
     {
       "filePath": "Main.xaml",
       "uniqueId": "573b2891-a98f-4cb4-914f-6e0fcfd76b3a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Generar_Reporte\\Generar_Reporte.XAML",
+      "uniqueId": "87662bbd-813d-4108-9a18-c1853524d412",
       "input": [],
       "output": []
     }
